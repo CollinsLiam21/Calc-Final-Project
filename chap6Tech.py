@@ -18,7 +18,6 @@ print('number of boxes = ',n)
 totalLRAM = 0
 for i in range(0,n):
     area = (a*((i*(x2-x1)/n)+x1)**b + c*((i*(x2-x1)/n)+x1)**d + e)*(x2-x1)/n
-    print(area)
     totalLRAM += area
 print('LRAM =',totalLRAM)
 
@@ -26,7 +25,6 @@ print('LRAM =',totalLRAM)
 totalRRAM = 0
 for i in range(1,n+1):
     area = (a*((i*(x2-x1)/n)+x1)**b + c*((i*(x2-x1)/n)+x1)**d + e)*(x2-x1)/n
-    print(area)
     totalRRAM += area
 print('RRAM =',totalRRAM)
 
