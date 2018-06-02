@@ -32,6 +32,10 @@ print('RRAM =',totalRRAM)
 trap = (totalLRAM+totalRRAM)/2
 print('Trap =',trap)
 
+#Actual using fundamental theorem of calculus
+print('Actual =',(a/(b+1))*(x2)**(b+1)+(c/(d+1))*(x2)**(d+1)+e*(x2)-(a/(b+1))*(x1)**(b+1)+(c/(d+1))*(x1)**(d+1)+e*(x1))
+
+
 
     
     
