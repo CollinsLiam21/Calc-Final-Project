@@ -1,5 +1,5 @@
 #Liam Collins
-#inputting polynomial function and outputting LRAM, RRAM and Trap
+#inputting polynomial function and outputting LRAM, RRAM and Trapezoid approximations
 
 print('f(x) = ax^b + cx^d + e   [x1,x2]')
 a = float(input('Enter value for a: '))
