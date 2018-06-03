@@ -1,5 +1,5 @@
 #Liam Collins
-#inputting polynomial function and outputting LRAM, RRAM and Trapezoid approximations
+#inputting polynomial function and outputting LRAM, RRAM, and Trapezoidal approximations compared with actual integral
 
 
 '''print('f(x) = ax^b + cx^d + e   [x1,x2]')
