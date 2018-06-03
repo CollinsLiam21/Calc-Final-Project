@@ -1,20 +1,6 @@
 #Liam Collins
 #inputting polynomial function and outputting LRAM, RRAM, and Trapezoidal approximations compared with actual integral
 
-
-'''print('f(x) = ax^b + cx^d + e   [x1,x2]')
-a = float(input('Enter value for a: '))
-b = float(input('Enter value for b: '))
-c = float(input('Enter value for c: '))
-d = float(input('Enter value for d: '))
-e = float(input('Enter value for e: '))
-x1 = float(input('Enter x1 in [x1,x2]: '))
-x2 = float(input('Enter x2 in [x1,x2]: '))
-n = int(input('Enter the number of boxes: '))
-print('f(x) = ',a,'x^',b,' + ',c,'x^',d,' + ',e)
-print('Interval = [',x1,',',x2,']')
-print('number of boxes = ',n)'''
-
 #polynomial function defined
 def function(a,b,c,d,e,x1,x2,n):
     print('f(x) = ',a,'x^',b,' + ',c,'x^',d,' + ',e)
