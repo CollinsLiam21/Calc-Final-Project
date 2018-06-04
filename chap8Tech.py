@@ -1,6 +1,6 @@
 #Liam Collins
 #chap8Tech.py
-#inputting polynomial function and interval, and outputting arc length using simpson's rule
+#inputs polynomial function and interval, and outputs arc length using simpson's rule
 
 from math import sqrt
 
