@@ -11,7 +11,7 @@ def arcLength(a,b,c,d,e,x1,x2):
     #Finding derivative
     print("f'(x) = ",a*b,'x^',b-1,' + ',c*d,'x^',d-1)
     
-    n = 10
+    n = 10000
     
     num = 1
     total = 0
