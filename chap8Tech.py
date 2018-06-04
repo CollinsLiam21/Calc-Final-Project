@@ -29,3 +29,9 @@ def arcLength(a,b,c,d,e,x1,x2):
     print((total+firstYValue+secondYValue)*(x2-x1)/n*(1/3))
 
 arcLength(1/3,3,1/4,-1,0,1,3)
+
+from spicy.integrate.quad import simps
+
+
+
+
