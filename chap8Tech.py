@@ -26,12 +26,8 @@ def arcLength(a,b,c,d,e,x1,x2):
     firstYValue = sqrt(1+(a*b*(x1)**(b-1)+c*d*(x1)**(d-1))**2)
     secondYValue = sqrt(1+(a*b*(x2)**(b-1)+c*d*(x2)**(d-1))**2)
     
-    print((total+firstYValue+secondYValue)*(x2-x1)/n*(1/3))
+    print(round((total+firstYValue+secondYValue)*(x2-x1)/n*(1/3),2))
 
 arcLength(1/3,3,1/4,-1,0,1,3)
-
-from spicy.integrate.quad import simps
-
-
 
 
